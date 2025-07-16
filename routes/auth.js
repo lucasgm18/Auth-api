@@ -4,6 +4,6 @@ const { login, protected: protectedRoute } = require('../controllers/authControl
 
 
 router.post('/login', login);
-router.get('protected', protectedRoute);
+router.get('/protected', protectedRoute);
 
 module.exports = router;
